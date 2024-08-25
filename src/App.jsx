@@ -1,13 +1,13 @@
-import Navbar from './components/Navbar/Navbar.jsx'
-import { Outlet } from 'react-router-dom'
+import Navbar from "./components/Navbar/Navbar.jsx";
+import { Outlet } from "react-router-dom";
 
 function App() {
-    return (
-        <>
-        <Navbar />
-        <Outlet />
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+    </>
+  );
 }
 
-export default App
+export default App;

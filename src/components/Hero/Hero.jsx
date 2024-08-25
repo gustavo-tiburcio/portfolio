@@ -1,7 +1,5 @@
-
-
 function Hero() {
-    return
+  return;
 }
 
-export default Hero
+export default Hero;
